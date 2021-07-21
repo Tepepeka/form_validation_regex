@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Form validation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <h1 class="my-5">RegEx</h1>
+
+          <form action="" method="POST" id="loginForm">
+            <!-- Email -->
+            <div class="mb-3">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                class="form-control"
+                name="email"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+              <small></small>
+            </div>
+
+            <!-- Password -->
+            <div class="mb-3">
+              <label for="password">Password</label>
+              <input
+                type="text"
+                class="form-control"
+                name="password"
+                placeholder="Password"
+              />
+              <small></small>
+            </div>
+
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-warning">Connexion</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
